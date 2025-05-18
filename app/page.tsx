@@ -102,7 +102,7 @@ export default function Home() {
           <h1 className="text-4xl text-center mb-4">Experience</h1>
           <h2 className="text-2xl">Arrowhead Alarm Products</h2>
           <h3>02-2023 - Present</h3>
-          <ul className="list-disc list-outside space-y-2 pl-5 text-foreground/80 mt-4">
+          <ul className="list-disc list-outside space-y-2 pl-5 text-foreground/80 my-4">
             <li>
               Created the front end of a web application used by alarm
               installers to program and manage their alarm systems.
