@@ -28,7 +28,7 @@ export default function Home() {
                 className={`${buttonVariants({
                   variant: "default",
                 })} max-w-fit`}
-                href="#about-me"
+                href="#experience"
               >
                 Experience
               </Link>
@@ -38,13 +38,8 @@ export default function Home() {
         <hr className="border-t-2 border-(--divider) w-16 mx-auto" />
         <section id="about-me" className="py-4 ">
           <h1 className="text-4xl text-center mb-4">About Me</h1>
-          <h3 className="text-center mb-8">
-            Here you will find more information about me, what I do, and my
-            current skills mostly in terms of programming and technology
-          </h3>
           <div className="grid grid-cols-1 my-4">
             <div>
-              <h2 className="text-2xl mb-4">Get to know me!</h2>
               <p className="mb-2">
                 Experienced Full Stack Developer with over two years as a
                 Software Engineer. Currently working at Arrowhead Alarm
@@ -136,10 +131,6 @@ export default function Home() {
         <hr className="border-t-2 border-(--divider) w-16 mx-auto" />
         <section id="projects" className="py-4">
           <h1 className="text-4xl text-center mb-4">Projects</h1>
-          <h3 className="text-center mb-8">
-            Here you will find some of the personal and clients projects that I
-            created with each project containing its own case study
-          </h3>
           <div className="grid grid-rows-2 my-4 gap-4">
             <div>
               <h2 className="text-2xl">E-Commerce</h2>
