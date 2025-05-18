@@ -63,7 +63,7 @@ export default function Home() {
                 className={`${buttonVariants({
                   variant: "default",
                 })} max-w-fit my-4`}
-                href="#contact"
+                href="mailto:leonardo.daniel.asad@gmail.com"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
