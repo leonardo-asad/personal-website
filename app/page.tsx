@@ -37,22 +37,25 @@ export default function Home() {
         </section>
         <hr className="border-t-2 border-(--divider) w-16 mx-auto" />
         <section id="about-me" className="py-4 ">
-          <h1 className="text-4xl text-center mb-4">About Me</h1>
+          <h1 className="text-4xl text-center mb-6">About Me</h1>
           <div className="grid grid-cols-1 my-4">
             <div>
               <p className="mb-2">
-                Experienced Full Stack Developer with over two years as a
-                Software Engineer. Currently working at Arrowhead Alarm
-                Products, developing software solutions for Alarm Systems.
+                Experienced Full Stack Developer with a strong foundation in
+                Front-End Development and over two years of experience as a
+                Software Engineer.
               </p>
               <p className="mb-2">
-                Passionate about technology, with a broad range of interests
-                spanning Computer Science, Data Science, and Mechanical
-                Engineering.
+                Currently working at Arrowhead Alarm Products, where I
+                contribute to software solutions for Alarm Systems. While my
+                background is primarily focused on front-end technologies,
+                I&apos;m also comfortable working across the full stack,
+                including backend development.
               </p>
               <p className="mb-2">
-                Previously worked for seven years as a Field Engineer in the oil
-                and gas industry before transitioning to Software Development.
+                Currently seeking an Intermediate Software Developer role within
+                a dynamic, growth-oriented team where I can contribute to
+                impactful software solutions.
               </p>
               <Link
                 className={`${buttonVariants({
@@ -77,35 +80,17 @@ export default function Home() {
                 Contact
               </Link>
             </div>
-            {/* <div>
-              <h2 className="text-2xl mb-4">My Skills</h2>
-              <div className="flex flex-row flex-wrap gap-2">
-                {[
-                  "HTML",
-                  "CSS",
-                  "Javascript",
-                  "React",
-                  "Python",
-                  "Django",
-                  "Typescript",
-                ].map((skill) => (
-                  <Badge key={skill} variant="outline">
-                    {skill}
-                  </Badge>
-                ))}
-              </div>
-            </div> */}
           </div>
         </section>
         <hr className="border-t-2 border-(--divider) w-16 mx-auto" />
         <section id="experience" className="my-4">
-          <h1 className="text-4xl text-center mb-4">Experience</h1>
+          <h1 className="text-4xl text-center mb-6">Experience</h1>
           <h2 className="text-2xl">Arrowhead Alarm Products</h2>
           <h3>02-2023 - Present</h3>
-          <ul className="list-disc list-outside space-y-2 pl-5 text-foreground/80 my-4">
+          <ul className="list-disc list-outside space-y-2 pl-5 text-foreground/80 my-6">
             <li>
-              Created the front end of a web application used by alarm
-              installers to program and manage their alarm systems.
+              Developed a React-based web application that enables alarm
+              installers to program and manage their alarm systems efficiently.
             </li>
             <li>
               Successfully led the migration of a complex front-end codebase
@@ -117,90 +102,25 @@ export default function Home() {
               code consistency and eliminating duplicate code.
             </li>
             <li>
-              Improved performance and user experience by caching API requests,
-              prefetching, reducing bundle size, and using optimistic updates.
+              Enhanced performance and user experience by implementing API
+              caching, prefetching data, reducing bundle size, and leveraging
+              optimistic UI updates.
             </li>
-            <li>Used Terraform to manage the AWS resources.</li>
             <li>
-              Collaborated with the back-end team, implementing architectural
-              changes to improve the scalability, performance, and security of
-              the Cloud Services.
+              Collaborated with the backend team to deliver new features and
+              implement technical enhancements focused on scalability,
+              performance, and security, while refactoring legacy code for
+              maintainability.
+            </li>
+            <li>
+              Technologies: React, Nextjs, HTML, CSS, JavaScript, Typescript,
+              Python, Django Rest Framework.
             </li>
           </ul>
         </section>
         <hr className="border-t-2 border-(--divider) w-16 mx-auto" />
-        <section id="projects" className="py-4">
-          <h1 className="text-4xl text-center mb-4">Projects</h1>
-          <div className="grid grid-rows-2 my-4 gap-4">
-            <div>
-              <h2 className="text-2xl">E-Commerce</h2>
-              <p>
-                This is a sample application that demostrates an E-Commerce
-                website using the PERN stack (PostgreSQL, Express.js, React.js,
-                Node.js)
-              </p>
-              <Link
-                className={`${buttonVariants({
-                  variant: "default",
-                })} max-w-fit my-4`}
-                href="https://github.com/leonardo-asad/E-Commerce"
-                target="_blank"
-              >
-                <svg
-                  height="32"
-                  aria-hidden="true"
-                  viewBox="0 0 24 24"
-                  version="1.1"
-                  width="32"
-                  data-view-component="true"
-                  className="size-4"
-                >
-                  <path
-                    fill="#fff"
-                    d="M12 1C5.9225 1 1 5.9225 1 12C1 16.8675 4.14875 20.9787 8.52125 22.4362C9.07125 22.5325 9.2775 22.2025 9.2775 21.9137C9.2775 21.6525 9.26375 20.7862 9.26375 19.865C6.5 20.3737 5.785 19.1912 5.565 18.5725C5.44125 18.2562 4.905 17.28 4.4375 17.0187C4.0525 16.8125 3.5025 16.3037 4.42375 16.29C5.29 16.2762 5.90875 17.0875 6.115 17.4175C7.105 19.0812 8.68625 18.6137 9.31875 18.325C9.415 17.61 9.70375 17.1287 10.02 16.8537C7.5725 16.5787 5.015 15.63 5.015 11.4225C5.015 10.2262 5.44125 9.23625 6.1425 8.46625C6.0325 8.19125 5.6475 7.06375 6.2525 5.55125C6.2525 5.55125 7.17375 5.2625 9.2775 6.67875C10.1575 6.43125 11.0925 6.3075 12.0275 6.3075C12.9625 6.3075 13.8975 6.43125 14.7775 6.67875C16.8813 5.24875 17.8025 5.55125 17.8025 5.55125C18.4075 7.06375 18.0225 8.19125 17.9125 8.46625C18.6138 9.23625 19.04 10.2125 19.04 11.4225C19.04 15.6437 16.4688 16.5787 14.0213 16.8537C14.42 17.1975 14.7638 17.8575 14.7638 18.8887C14.7638 20.36 14.75 21.5425 14.75 21.9137C14.75 22.2025 14.9563 22.5462 15.5063 22.4362C19.8513 20.9787 23 16.8537 23 12C23 5.9225 18.0775 1 12 1Z"
-                  ></path>
-                </svg>
-                More Info
-              </Link>
-            </div>
-
-            <div>
-              <h2 className="text-2xl">Finance Website</h2>
-              <p>
-                This web app keeps track of your investments in Stocks and ETFs.
-                It presents to the user a detailed description of the
-                composition of their portfolio/s and how much weight each asset
-                has in relation to the total worth of their portfolio.
-              </p>
-              <Link
-                className={`${buttonVariants({
-                  variant: "default",
-                })} max-w-fit my-4`}
-                href="https://github.com/leonardo-asad/Portfolio-App"
-                target="_blank"
-              >
-                <svg
-                  height="32"
-                  aria-hidden="true"
-                  viewBox="0 0 24 24"
-                  version="1.1"
-                  width="32"
-                  data-view-component="true"
-                  className="size-4"
-                >
-                  <path
-                    fill="#fff"
-                    d="M12 1C5.9225 1 1 5.9225 1 12C1 16.8675 4.14875 20.9787 8.52125 22.4362C9.07125 22.5325 9.2775 22.2025 9.2775 21.9137C9.2775 21.6525 9.26375 20.7862 9.26375 19.865C6.5 20.3737 5.785 19.1912 5.565 18.5725C5.44125 18.2562 4.905 17.28 4.4375 17.0187C4.0525 16.8125 3.5025 16.3037 4.42375 16.29C5.29 16.2762 5.90875 17.0875 6.115 17.4175C7.105 19.0812 8.68625 18.6137 9.31875 18.325C9.415 17.61 9.70375 17.1287 10.02 16.8537C7.5725 16.5787 5.015 15.63 5.015 11.4225C5.015 10.2262 5.44125 9.23625 6.1425 8.46625C6.0325 8.19125 5.6475 7.06375 6.2525 5.55125C6.2525 5.55125 7.17375 5.2625 9.2775 6.67875C10.1575 6.43125 11.0925 6.3075 12.0275 6.3075C12.9625 6.3075 13.8975 6.43125 14.7775 6.67875C16.8813 5.24875 17.8025 5.55125 17.8025 5.55125C18.4075 7.06375 18.0225 8.19125 17.9125 8.46625C18.6138 9.23625 19.04 10.2125 19.04 11.4225C19.04 15.6437 16.4688 16.5787 14.0213 16.8537C14.42 17.1975 14.7638 17.8575 14.7638 18.8887C14.7638 20.36 14.75 21.5425 14.75 21.9137C14.75 22.2025 14.9563 22.5462 15.5063 22.4362C19.8513 20.9787 23 16.8537 23 12C23 5.9225 18.0775 1 12 1Z"
-                  ></path>
-                </svg>
-                More Info
-              </Link>
-            </div>
-          </div>
-        </section>
-        <hr className="border-t-2 border-(--divider) w-16 mx-auto" />
         <section id="contact" className="text-center py-4 flex flex-col">
-          <h1 className="text-4xl mb-4">Contact</h1>
+          <h1 className="text-4xl mb-6">Contact</h1>
           <h3 className="mb-8">
             Feel free to Contact me by sending me a message to the following
             email address and I will get back to you as soon as possible
